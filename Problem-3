@@ -1,0 +1,13 @@
+# Problem -3
+
+
+print('Enter prefix\n')
+pref = input()
+print('list of inputs\n')
+check_prefix = list(map(str,input().split()))
+p=[]
+for i in check_prefix:
+    x=i.startswith(pref)
+    if x==True:
+        p.append(i)
+print(p)
